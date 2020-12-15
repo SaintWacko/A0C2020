@@ -16,7 +16,7 @@ def main():
         return a1 % n1
 
 
-def eea(r1, r2):
+def eea(r1, r2):  # extended euclidean algorithm
     q = 0
     s1 = 1
     s2 = 0
@@ -33,7 +33,7 @@ def eea(r1, r2):
             r2, q = r, q2
             s1, s2 = s2, s
             t1, t2 = t2, t
-    
+
 
 def is_pw_coprime(list):
     print(list)
